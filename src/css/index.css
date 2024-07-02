@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=League+Spartan:wght@300;800&family=Quicksand:wght@300;500;700&family=Righteous&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+#particles {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: -100;
+  display: inline;
+}
+h1,
+h2,
+h3 {
+  font-family: "League Spartan", sans-serif;
+}
+h4,
+h5,
+p {
+  font-family: "Quicksand";
+}
+p.logo {
+  font-family: "Righteous", cursive;
+}
+p.subhead {
+  font-family: "Righteous", cursive;
+}
+.shape {
+  border-radius: 50% 100% 85% 142% / 60% 120% 80% 60%;
+  position: absolute;
+  background: #90cdf4;
+  margin: auto 0;
+  animation: MinRotateShape 10s infinite linear;
+}
+.shape2 {
+  border-radius: 60% 120% 80% 60% / 50% 100% 85% 142%;
+  position: absolute;
+  background: #4299e1;
+  margin: auto 0;
+  animation: MinRotateShape 10s infinite linear;
+}
+
+.react-logo {
+  animation: MinRotateShape 6s infinite linear;
+}
+
+.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+@keyframes MinRotateShape {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
