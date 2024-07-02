@@ -21,7 +21,7 @@ import "aos/dist/aos.css";
 
 import COLOR from "../constant/color";
 import lynxPic from "../images/picture.webp";
-import personPic from "../images/person_2.webp";
+import personPic from "../images/logo_2.webp";
 
 export default function About() {
   const [personImage, setPersonImage] = useState(true);
