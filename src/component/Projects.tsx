@@ -16,9 +16,9 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 import { BsClipboardCheckFill } from "react-icons/bs";
 
 import PortfolioPersonal from "../images/film.webp";
-import PortfolioBlog from "../images/personal_blog_project.webp";
+import PortfolioBlog from "../images/si_asih.webp";
 import PortfolioKreateams from "../images/kreateams.webp";
-import PortfolioSirekap from "../images/si_asih.webp";
+import PortfolioSirekap from "../images/sirekap.webp";
 import PortfolioPPDB from "../images/ppdb.webp";
 import PortfolioLaughify from "../images/laughify.webp";
 
