@@ -49,7 +49,7 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Text>© {new Date().getFullYear()} Raihanmd. All rights reserved</Text>
+        <Text>© {new Date().getFullYear()} PerlShell. All rights reserved</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"Github"} href={"https://github.com/PerlShell"}>
             <FaGithub />
